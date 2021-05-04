@@ -10,6 +10,10 @@
 
   let audioElement
 
+  onMount(() => {
+    audioElement.play()
+  })
+
   onDestroy(() => {
     audioElement.src = ''
     console.log('on destroy')
