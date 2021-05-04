@@ -20,6 +20,10 @@
   })
 </script>
 
+<svelte:head>
+  <title>{params.station}</title>
+</svelte:head>
+
 <main>
   <audio bind:this={audioElement} controls autoplay src={stationURL}>
     <track kind='captions' />
