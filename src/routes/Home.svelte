@@ -1,7 +1,4 @@
 <script>
-
-  export let currentRoute
-
   import stations from '../stations.js'
 
 </script>
